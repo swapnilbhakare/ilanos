@@ -1,0 +1,27 @@
+.button-purple {
+  padding: 12px 4rem;
+  border-radius: 20px;
+  font-weight: 100;
+  font-size: 0.8rem;
+  font-family: "Noto Sans JP", sans-serif;
+  color: #fff;
+  background: rgba(117, 31, 255, 1);
+}
+.button-purple:hover {
+  color: #fff;
+  background: #000;
+}
+
+.button-white {
+  background: #fff;
+
+  padding: 10px 3rem;
+  border-radius: 20px;
+  font-weight: 100;
+  border: 2px solid transparent;
+  font-family: "Noto Sans JP", sans-serif;
+}
+.button-white:hover {
+  background: transparent;
+  border: 2px solid white;
+}

@@ -1,38 +1,43 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap");
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --buttonBgColor: rgba(117, 31, 255, 1);
+  --btnColor: #ffffff;
+  --HoverColor: rgba(117, 31, 255, 1);
+}
+body {
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 14px;
+  background: #f9fafa;
+}
+a {
+  text-decoration: none;
+  color: #000000;
+  transition: 0.3s ease-in-out;
+}
+li {
+  list-style-type: none;
+}
+button,
+input {
+  outline: none;
+  border: none;
+  transition: 0.3s ease-in-out;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container-flex {
+  width: 100%;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container {
+  width: 100%;
+  max-width: 90%;
+  margin: 0 auto;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  justify-content: space-around;
 }
