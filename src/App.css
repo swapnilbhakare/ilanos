@@ -14,7 +14,7 @@
 body {
   font-family: "Noto Sans JP", sans-serif;
   font-size: 14px;
-  background: #f9fafa;
+  background: rgb(236, 235, 235);
 }
 a {
   text-decoration: none;

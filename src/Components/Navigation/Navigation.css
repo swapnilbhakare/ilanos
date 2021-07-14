@@ -22,7 +22,7 @@
   margin-left: 5rem;
 }
 .search-wrapper input {
-  background: #e5e5e5;
+  background: rgb(236, 235, 235);
   padding: 10px 30px;
   border-radius: 20px 0 0 20px;
   font-weight: 100;
@@ -66,7 +66,7 @@
   display: flex;
   align-items: center;
   justify-content: left;
-  background-color: #e5e5e5;
+  background: rgb(236, 235, 235);
   padding: 1rem 2.5rem;
 }
 .navbar a {

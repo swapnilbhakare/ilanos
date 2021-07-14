@@ -2,7 +2,6 @@ import React from "react";
 import Button from "../../../Components/Button/Button";
 import "./style.css";
 const SpecialOffers = (props) => {
-  console.log(props.offers);
   return (
     <>
       {props.offers.map((offer) => {

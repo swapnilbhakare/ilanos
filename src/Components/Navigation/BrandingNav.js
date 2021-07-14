@@ -7,8 +7,9 @@ const BrandingNav = () => {
       <div className="branding-nav">
         <div className="brand-container">
           <div className="logo-wrapper">
-          <Link to='/'><h2>ilanoS</h2></Link>
-            
+            <Link to="/">
+              <h2>ilanoS</h2>
+            </Link>
           </div>
           <div className="search-wrapper">
             <input type="search" placeholder="Search..." />

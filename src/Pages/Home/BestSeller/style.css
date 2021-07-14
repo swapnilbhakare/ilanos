@@ -3,6 +3,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding: 2rem 0;
 }
 .best-seller .products {
   display: flex;
@@ -12,14 +13,26 @@
 }
 
 .best-seller div h2 {
-  padding: 1rem 0;
-  font-size: 1.5rem;
+  padding: 0.5rem 0;
+  font-size: 1.9rem;
   text-align: center;
 }
 .products .product {
   border: 1px solid #ccc;
-  padding: 10px;
+  padding: 20px 10px;
   width: 25%;
+  position: relative;
+}
+.products .product h6 {
+  position: absolute;
+  background-color: rgb(215, 45, 45);
+  font-size: 0.9rem;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 0.5rem 1rem;
+  left: 0;
+  top: 0;
+  font-weight: 100;
 }
 .product img {
   width: 100%;
@@ -34,7 +47,9 @@
   width: 85%;
   text-align: left;
   margin: 1rem 0;
+  font-weight: 100;
 }
 .product span {
   font-size: 1.5rem;
+  color: rgba(117, 31, 255, 1);
 }

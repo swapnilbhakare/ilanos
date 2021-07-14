@@ -2,8 +2,10 @@ import React from "react";
 import MainCarousel from "./MainCarousel/MainCarousel";
 import Deliveryprocess from "./Deliveryprocess/Deliveryprocess";
 import SpecialOffers from "./SpecialOffers/SpecialOffers";
-import BestSeller from "./BestSeller/BestSeller";
+import BestSellers from "./BestSeller/BestSellers";
 import "./style.css";
+import Category from "./Category/Category";
+import BestPrice from "./BestPrice/BestPrice";
 
 const Home = () => {
   let isbuttonPurple = false;
@@ -30,7 +32,9 @@ const Home = () => {
         <SpecialOffers offers={offers}></SpecialOffers>
       </div>
       <Deliveryprocess />
-      <BestSeller />
+      <BestSellers />
+      <Category />
+      <BestPrice />
     </>
   );
 };

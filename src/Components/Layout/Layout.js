@@ -4,7 +4,7 @@ const Layout = (props) => {
   const [contaierBackground, setContaierBackground] = useState("#fff");
   const containerBackgroundStyle = {
     background: `${contaierBackground}`,
-    margin: "1rem auto",
+    margin: "2rem auto",
     display: "flex",
     justifyContent: "space-between",
     width: "100%",
