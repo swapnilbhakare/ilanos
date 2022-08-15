@@ -1,0 +1,54 @@
+.products > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  justify-content: start;
+  width: 100%;
+  margin: 1rem 0;
+}
+.product {
+  border: 1px solid #ccc;
+  padding: 20px 10px;
+  position: relative;
+  width: 270px;
+  max-width: 20%;
+  height: 400px;
+  
+}
+.products div h2{
+  
+  margin: 1rem auto;
+  font-size: 2rem;
+ 
+}
+.product h6 {
+  position: absolute;
+  background-color: rgb(215, 45, 45);
+  font-size: 0.9rem;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 0.5rem 1rem;
+  left: 0;
+  top: 0;
+  font-weight: 100;
+}
+.product img {
+  width: 100%;
+  padding: 20px;
+  object-fit: contain;
+  transition: 0.3s all ease-in-out;
+  overflow: hidden;
+}
+.product img:hover {
+  padding: 0;
+}
+.product p {
+  text-align: left;
+  margin: 1rem 0;
+  font-weight: 100;
+}
+.product span {
+  font-size: 1.2rem;
+  color: rgba(117, 31, 255, 1);
+}

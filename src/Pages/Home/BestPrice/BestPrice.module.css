@@ -1,0 +1,31 @@
+.buttonStyle:hover {
+    background: transparent;
+    color: rgb(14, 11, 11);
+    font-weight: 200;
+  }
+  .span {
+    position: absolute;
+    left: 55%;
+    top: 20%;
+    transform: translate(-15%);
+    width: 150px;
+    height: 150px;
+    background-color: rgb(215, 45, 45);
+    z-index: 1;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: rgb(255, 255, 255);
+    padding: 3rem;
+    box-shadow: 0px 7px 15px 0px rgba(0, 0, 0, 0.28), 0 1px 4px rgba(0, 0, 0, 0.6);
+  
+}
+  .spanItem {
+    text-align: center;
+    transform: rotate(30deg);
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #fff;
+    margin: 1rem;
+  }

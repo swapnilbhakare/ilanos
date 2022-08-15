@@ -1,0 +1,19 @@
+.filter {
+  width: 30%;
+  padding: 0 1rem;
+  text-align: left;
+}
+.filter h2 {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+  font-weight: 300;
+  font-size: 1.8rem;
+}
+.filter li a {
+  font-weight: 100;
+  line-height: 2;
+}
+.filter li a:active {
+  font-weight: 300;
+}

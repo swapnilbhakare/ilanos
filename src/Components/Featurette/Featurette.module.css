@@ -1,0 +1,41 @@
+.featurette {
+  display: flex;
+  align-items: center;
+  position: relative;
+  justify-self: center;
+}
+
+.imageWrapper {
+  width: 80%;
+  height: 600px;
+  max-height: 100%;
+}
+.imageWrapper img {
+  height: 100%;
+  width: 100%;
+  
+  
+  object-fit: cover;
+  clip-path: polygon(0 0, 100% 0, 70% 0%, 80% 100%, 0 100%);
+}
+.textWrapper {
+  width: 20%;
+  text-align: left;
+  margin-left: -6rem;
+}
+
+h3 {
+  font-size: 1.7rem;
+  font-family: "Noto Sans JP", sans-serif;
+}
+h2 {
+  font-size: 5rem;
+  font-weight: 700;
+  margin: 0.5rem 0;
+  font-family: "Noto Sans JP", sans-serif;
+}
+p {
+  margin: 1rem 0 3rem;
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 200;
+}

@@ -1,0 +1,13 @@
+.styleGroup{
+    margin-left: 80%;
+    margin-top: 5%;
+    padding: .7rem 1.8rem;
+    margin-bottom: 0;
+    outline: none;
+    font-size: 1rem;
+}
+.styleOption * {
+    margin: 3rem 0;
+    border: 1px;
+
+}

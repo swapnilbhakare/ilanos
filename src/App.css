@@ -12,9 +12,14 @@
   --HoverColor: rgba(117, 31, 255, 1);
 }
 body {
+  transition: all  .3s ease-in-out;
   font-family: "Noto Sans JP", sans-serif;
   font-size: 14px;
-  background: rgb(236, 235, 235);
+  background: #f9fafa;
+  -webkit-transition: all  .3s ease-in-out;
+  -moz-transition: all  .3s ease-in-out;
+  -ms-transition: all  .3s ease-in-out;
+  -o-transition: all  .3s ease-in-out;
 }
 a {
   text-decoration: none;

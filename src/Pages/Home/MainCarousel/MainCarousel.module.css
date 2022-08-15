@@ -1,0 +1,47 @@
+.heroSection {
+    position: relative;
+    width: 100%;
+    display: flex;
+    height: calc(100% - 10vh);
+  
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  
+.heroText {
+    padding: 5rem 12rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    letter-spacing: 2px;
+    position: absolute;
+  }
+ .heroImage {
+    position: relative;
+    z-index: -999;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+.heroSection img {
+    width: 100%;
+  }
+  
+ .heroSection span {
+    background: #d72d2d;
+    padding: 0.3rem 0.5rem;
+    color: #fff;
+    font-family: "Noto Sans JP", sans-serif;
+  }
+.heroSection h1 {
+    font-size: 4rem;
+    margin: 0.5rem 0;
+    font-family: "Noto Sans JP", sans-serif;
+  }
+ .heroSection p {
+    margin: 2rem 0;
+    font-family: "Noto Sans JP", sans-serif;
+  }
+  
